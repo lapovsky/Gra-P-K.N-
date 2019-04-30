@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>GRA Papier,Kamień,Nożyce</title>
+</head>
+<body>
+    <h1>Papier,Kamień,Nożyce
+         <span>
+        <i class="fas fa-hand-paper"></i>
+        <i class="fas fa-hand-rock"></i>
+        <i class="fas fa-hand-scissors"></i>
+    </span>
+    </h1>
+
+    <div class="select">
+        <h2>Proszę, wybierz:</h2>
+        <i data-option="papier" class="fas fa-hand-paper"></i>
+        <i data-option="kamien" class="fas fa-hand-rock"></i>
+        <i data-option="nozyce" class="fas fa-hand-scissors"></i>    
+        <button class="start">GRAJ</button>
+    </div>
+
+    <div class="panel-left">
+        <h3>Wyniki gry</h3>
+        <p>Twój wybór: <span data-summary="your-choice"></span></p>
+        <p>Wybór komputera: <span data-summary="ai-choice"></span></p>
+        <p>Zwycięzca gry: <span data-summary=who-win"></span></p>
+    </div>
+    
+    <div class="panel-right">
+        <h3>Aktualne wyniki</h3>
+        <p class="numbers">liczba gier: <span></span></p>
+        <p class="wins">wygrane: <span></span></p>
+        <p class="losses">przegrane: <span></span></p>
+        <p class="draws">remisy: <span></span></p>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

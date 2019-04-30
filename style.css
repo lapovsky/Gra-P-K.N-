@@ -1,0 +1,85 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: #181717;
+    height: 90vh;
+}
+
+h1{
+    margin: 5vw auto;
+    text-align: center;
+    margin:3vw;
+    font-family: 'Anton', sans-serif;
+    color: #546464;
+    letter-spacing: .5vw;
+    font-size: 3vw;
+}
+h1 span{
+    color:red;
+}
+
+.select{
+    width: 50vw;
+    height: 15vw;
+    margin: 0 auto;
+}
+
+.select{
+    widows: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+}
+.select i{
+    font-size: 7vw;
+    margin:2vw;
+}
+
+.start{
+    display:block;
+    width: 8vw;
+    height: 2vw;
+    font-size: 1.4vw;
+    letter-spacing: .5vw;
+    margin: 0 auto;
+    background-color: transparent;
+    border:.2vw white solid;
+    color:white;
+    outline: none;
+}
+.start:hover{
+    cursor: pointer;
+    color:darkred;
+    border:.2vw darkred solid;
+}
+
+.panel-left,.panel-right{
+    font-family: arial;
+    color:white;
+    font-size: 1vw;
+}
+
+.panel-left h3,.panel-right h3{
+    font-weight: bold;
+    margin:.7vw;
+    font-size: 1.5vw;
+}
+
+.panel-left p,.panel-right p{
+    margin:.5vw;
+}
+
+.panel-left{
+    width: 15vw;
+    height: 10vw;
+    margin:5vw 25vw;
+}
+
+.panel-right{
+    width: 15vw;
+    height: 10vw;
+    margin:0 60vw;
+    transform: translateY(-150%);
+}
