@@ -35,6 +35,7 @@ h1 span{
 .select i{
     font-size: 7vw;
     margin:2vw;
+    outline: none;
 }
 
 .start{
